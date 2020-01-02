@@ -74,7 +74,7 @@ class AES:
 		'''print "The expanded key is as below:: "
 		for index in range(11):
 			print str(index)+" :  ",
-			for i in range(4):
+			for i in range(4):                        //this is not required
 				for j in range(4):
 					print hex(self.full_key[index][i][j])[2:],
 			print"\n"
