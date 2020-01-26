@@ -174,7 +174,7 @@ class AES:
 		self.state=state
 		self.keyEx(key)
 		self.keyWhitening()
-		for i in range(9):
+		for i in xrange(9):
 			#print "\nI AM IN %d STEP::"%(i+1)
 			self.subByte()
 			self.shiftRow()
